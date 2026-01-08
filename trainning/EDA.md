@@ -20,4 +20,16 @@
 
 ```python
 cols_missing_10_60 = missing[(missing > 10) & (missing <= 60)].index.tolist()
-print("Columns with 10–60% missing values:", cols_missing_10_60)
+print("Columns with 10–60% missing values:", cols_missing_10_60) 
+```
+## 3. Feature Types
+ -Numerical features: continuous numeric columns excluding binary
+ -Binary features: columns with exactly 2 unique values
+ -Categorical features: object or category type
+
+ ```python
+numeric_cols = numerical_data(df)
+binary_cols = binary_data(df)
+cat_cols = categorical_data(df) 
+```
+**Observation:**Features separated to ensure proper preprocessing pipelines for modeling.
