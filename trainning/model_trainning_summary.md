@@ -98,14 +98,6 @@ Name: TARGET, dtype: float64
 
 ---
 
-## 8. Next Steps (Optional Enhancements)
-
-1. **SHAP Analysis:** Explain feature contributions for flagged defaulters  
-2. **Cost-sensitive Analysis:** Model expected financial loss/gain per threshold  
-3. **Probability Calibration:** Improve probability estimates using Platt or isotonic scaling  
-4. **Model Comparison Table:** Compare XGB vs Random Forest vs Logistic Regression using PR-AUC and recall
-
----
 
 ## 9. Interview-Ready Explanation
 
